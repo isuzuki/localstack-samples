@@ -1,0 +1,11 @@
+{
+  "name": "localstack-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
