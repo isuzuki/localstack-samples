@@ -11,3 +11,6 @@ update: zip
 
 exec-sample:
 	aws lambda --endpoint-url=http://localhost:4574 invoke --profile localstack --function-name f1 --payload '{"key1":"value1", "key2":"value2", "key3":"value3"}' result.log
+
+exec-s3-put-sample:
+	aws lambda --endpoint-url=http://localhost:4574 invoke --profile localstack --function-name f1 --payload file://s3_put_payload.json result.log
